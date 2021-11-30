@@ -1,0 +1,157 @@
+/* GENERAL */
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-headding {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section {
+  background-color: white;
+}
+
+/* < Title > */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+.sizing-image-container {
+  position: relative;
+}
+
+/* < Features > */
+.feature-box {
+  padding: 5%;
+}
+.iconz-features {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.iconz-features:hover {
+  color: #ff4c68;
+}
+.heading-features {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+#features {
+  position: relative;
+  z-index: 1;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/* < Testimonials > */
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* < Press > */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 80px;
+}
+#press {
+  background-color: #ef8172;
+}
+
+/* < Pricing > */
+.pricing-col {
+  padding: 2.6% 2%;
+  line-height: 1.5;
+}
+#pricing {
+  padding: 100px;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing {
+  padding: 0 0 20px;
+}
+
+/* < Footer > */
+.social-icon {
+  margin: 20px 10px;
+}
+.footer-icons {
+  color: black;
+}
+
+/* < Media Query > */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
